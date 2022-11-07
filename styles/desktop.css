@@ -15,8 +15,6 @@ header {
 
 img {
     width: 450px;
-    animation: floating 3s ease-in-out infinite;
-    -webkit-animation: floating 3s ease-in-out infinite;
 }
 
 .content {
@@ -30,28 +28,3 @@ footer {
     bottom: 0;
 }
 
-@keyframes floating {
-   0% {
-       transform: translate(0, 0px);
-       -webkit-transform: translate(0, 0px);
-       -moz-transform: translate(0, 0px);
-       -ms-transform: translate(0, 0px);
-       -o-transform: translate(0, 0px);
-}
-
-    50% {
-        transform: translate(0, 15px);
-        -webkit-transform: translate(0, 15px);
-        -moz-transform: translate(0, 15px);
-        -ms-transform: translate(0, 15px);
-        -o-transform: translate(0, 15px);
-}
-
-    100% {
-        transform: translate(0, -0px);
-        -webkit-transform: translate(0, -0px);
-        -moz-transform: translate(0, -0px);
-        -ms-transform: translate(0, -0px);
-        -o-transform: translate(0, -0px);
-}
-}
